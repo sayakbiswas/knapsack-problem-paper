@@ -1,10 +1,18 @@
-\documentclass{article}
-\title{The Knapsack Problem \\ \small \textit{A Survey of Solution Approaches}}
-\date{2016-04-02}
-\author{Sayak Biswas \\ \small UNIVERSITY \textit{of} \textbf{FLORIDA} \\ \small UFID: 54584911}
+\documentclass[twocolumn]{article}
 \begin{document}
 	\pagenumbering{gobble}
-	\maketitle
-	\newpage
+	\title{The Knapsack Problem \\ \small \textit{A Survey of Solution Approaches}}
+	\date{April 2, 2016}
+	\author{Sayak Biswas \\ \small UNIVERSITY \textit{of} \textbf{FLORIDA} \\ \small UFID: 54584911}
+	\twocolumn[
+		\begin{@twocolumnfalse}
+			\maketitle
+			\begin{abstract}
+				This paper surveys exisitng literature for different approaches to solve the knapsack problem. The knapsack problem is a combinatorial optimization problem in which one has to maximize the profits gained by packing a set of objects in a knapsack without exceeding its capacity. The problem is \textbf{\textit{NP}}-complete, thus there is no known polymial time algorithm for a large input. 
+
+				Specifically, we take a look at the fractional and the 0/1 Knapsack Problem and provide a qualitative comparison between the three well-known approaches towards solving the problem: greedy, dynamic programming and branch \& bound algorithms.
+			\end{abstract}
+		\end{@twocolumnfalse}
+	]
 	\pagenumbering{arabic}
 \end{document}
