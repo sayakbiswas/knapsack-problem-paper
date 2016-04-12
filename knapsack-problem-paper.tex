@@ -1,18 +1,29 @@
-\documentclass[twocolumn]{article}
+\documentclass{article}
+\usepackage{fixltx2e}
+\setlength{\parskip}{\baselineskip}
+\title{The Knapsack Problem \\ \small \textit{A Survey of Solution Approaches}}
+\date{\small \today}
+\author{Sayak Biswas \\ \small UNIVERSITY \textit{of} \textbf{FLORIDA} \\ \small UFID: 54584911}
 \begin{document}
-	\pagenumbering{gobble}
-	\title{The Knapsack Problem \\ \small \textit{A Survey of Solution Approaches}}
-	\date{April 2, 2016}
-	\author{Sayak Biswas \\ \small UNIVERSITY \textit{of} \textbf{FLORIDA} \\ \small UFID: 54584911}
-	\twocolumn[
-		\begin{@twocolumnfalse}
-			\maketitle
-			\begin{abstract}
-				This paper surveys exisitng literature for different approaches to solve the knapsack problem. The knapsack problem is a combinatorial optimization problem in which one has to maximize the profits gained by packing a set of objects in a knapsack without exceeding its capacity. The problem is \textbf{\textit{NP}}-complete, thus there is no known polymial time algorithm for a large input. 
+\pagenumbering{gobble}
+\maketitle
+\begin{abstract}
+This paper surveys existing literature for different approaches to solve the knapsack problem. The Knapsack Problem is a combinatorial optimization problem in which one has to maximize the profits gained by packing a set of objects in a knapsack without exceeding its capacity. The problem is \textbf{\textit{NP}}-complete, thus there is no known polynomial time algorithm for a large input.
 
-				Specifically, we take a look at the fractional and the 0/1 Knapsack Problem and provide a qualitative comparison between the three well-known approaches towards solving the problem: greedy, dynamic programming and branch \& bound algorithms.
-			\end{abstract}
-		\end{@twocolumnfalse}
-	]
-	\pagenumbering{arabic}
+Specifically, we take a look at the \textit{0-1 Knapsack Problem} and provide a qualitative comparison between the three well-known approaches towards solving the problem: brute-force, dynamic programming and branch \& bound algorithms.
+\end{abstract}
+\newpage
+
+\section{Introduction}
+The \textit{0-1 Knapsack Problem} is an optimization problem, which at a high level is to choose the most profitable subset from a collection of available items without overloading the knapsack. The problem is formally defined as follows:
+
+Given a knapsack of maximum capacity \textit{C} and \textit{n} items each weighing \textit{w\textsubscript{i}} and with an associated profit of \textit{p\textsubscript{i}}, the \textit{Knapsack Problem} is to choose a subset of the items such that the below holds true:
+
+maximize $\sum_{i=1}^{n}\textit{p\textsubscript{i}x\textsubscript{i}}$
+
+on the condition $\sum_{i=1}^{n}\textit{w\textsubscript{i}x\textsubscript{i}} \leq \textit{C}, \textit{x\textsubscript{i}} \in \{0, 1\}, \textit{i} = 1,...,\textit{n}$
+
+The two most common variations are the \textit{Unbounded} and \textit{Bounded} Knapsack Problems. 
+
+\pagenumbering{arabic}
 \end{document}
