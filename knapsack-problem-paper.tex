@@ -1,5 +1,4 @@
 \documentclass{article}
-\usepackage{fixltx2e}
 \setlength{\parskip}{\baselineskip}
 \title{The Knapsack Problem \\ \small \textit{A Survey of Solution Approaches}}
 \date{\small \today}
@@ -8,22 +7,58 @@
 \pagenumbering{gobble}
 \maketitle
 \begin{abstract}
-This paper surveys existing literature for different approaches to solve the knapsack problem. The Knapsack Problem is a combinatorial optimization problem in which one has to maximize the profits gained by packing a set of objects in a knapsack without exceeding its capacity. The problem is \textbf{\textit{NP}}-complete, thus there is no known polynomial time algorithm for a large input.
+This paper surveys existing literature for different approaches to solve the knapsack problem. The Knapsack Problem is a combinatorial optimization problem in which one has to maximize the profits gained by packing a set of objects in a knapsack without exceeding its capacity. The problem is $\mathcal{NP}$-hard, thus there is no known polynomial time algorithm for a large input.
 
-Specifically, we take a look at the \textit{0-1 Knapsack Problem} and provide a qualitative comparison between the three well-known approaches towards solving the problem: brute-force, dynamic programming and branch \& bound algorithms.
+Specifically, we take a look at the \textit{0-1 Knapsack Problem} and provide a qualitative comparison between the three well-known approaches towards solving the problem: dynamic programming, backtracking and branch \& bound algorithms.
 \end{abstract}
 \newpage
 
-\section{Introduction}
-The \textit{0-1 Knapsack Problem} is an optimization problem, which at a high level is to choose the most profitable subset from a collection of available items without overloading the knapsack. The problem is formally defined as follows:
-
-Given a knapsack of maximum capacity \textit{C} and \textit{n} items each weighing \textit{w\textsubscript{i}} and with an associated profit of \textit{p\textsubscript{i}}, the \textit{Knapsack Problem} is to choose a subset of the items such that the below holds true:
-
-maximize $\sum\limits_{i=1}^{n}\textit{p\textsubscript{i}x\textsubscript{i}}$
-
-on the condition $\sum\limits_{i=1}^{n}\textit{w\textsubscript{i}x\textsubscript{i}} \leq \textit{C}, \textit{x\textsubscript{i}} \in \{0, 1\}, \textit{i} = 1,...,\textit{n}$
-
-The two most common variations are the \textit{Unbounded} and \textit{Bounded} Knapsack Problems. 
-
 \pagenumbering{arabic}
+
+\section{Introduction}
+The \textit{Knapsack Problem} is an optimization problem, which at a high level is to choose the most profitable subset from a collection of available items without overloading the knapsack. The problem is formally defined as follows:
+
+Given a knapsack of maximum capacity \textit{C} and \textit{n} items each weighing \textit{$w_{i}$} and with an associated profit of \textit{$p_{i}$}, the \textit{Knapsack Problem} is to choose a subset of the items such that the below holds true:
+
+maximize $\sum\limits_{i=1}^{n}\textit{$p_{i}x_{i}$}$
+
+on the condition $\sum\limits_{i=1}^{n}\textit{$w_{i}x_{i}$} \leq \textit{C}, \textit{i} = 1,...,\textit{n}$
+
+where \textit{$x_{i}$} is the number of copies of each item.
+
+The \textit{fractional} knapsack problem allows placing a fraction \textit{$x_{i}$} of object \textit{i} into the knapsack \textit{i.e.} $0 \le \textit{$x_{i}$} \le 1$.
+
+The \textit{bounded} knapsack problem restricts each item type to an integer amount of copies \textit{i.e.} \textit{$x_{i}$} $\in \{0,...,m_{i}\}$
+
+The \textit{unbounded} knapsack problem removes any restriction from the number of copies of each object type \textit{i.e.} \textit{$x_{i}$} $\ge$ 0.
+
+The \textit{0-1} knapsack problem restricts the copy count to either zero or one, meaning the object is either included in the knapsack or not, \textit{i.e.} \textit{$x_{i}$} $\in$ \{0, 1\}. In this paper we will survey the \textit{0-1} knapsack problem.
+
+\section{Algorithms}
+A na\"{\i}ve brute force approach would be to consider all $2^{n}$ possible combinations of items for the knapsack and choose the one that yields te maximum profit. Such an approach would lead to exponential complexity and hence is not desirable.
+\subsection{Dynamic Programming}
+Dynamic programming solves optimization problems by breaking it into smaller subproblems and then solving those subproblems to find the overall solution. To solve a problem using dynamic programming, it should have two important characteristics:
+\begin{itemize}
+	\item \textit{Optimal Substructure}: This means that the overall optimal solution to a problem comprises optimal solutions to the subproblems.
+	\item \textit{Overlapping Subproblems}: This means that any algorithm used to solve the problem should be solving a subset of the subproblems over and over again instead of generating new subproblems. Dynamic programming stores the results of these subproblems and uses them whenever the subproblem is encountered again. This is called \textit{memoization}.
+\end{itemize}
+ 
+To design a dynamic programming solution for the problem, we first define a function \textit{knap(1, n, C)} which finds the optimal solution, $f_{n}(C)$ for a knapsack of capacity \textit{C} using objects from \textit{1} to \textit{n}. We divide this into subproblems denoted by \textit{knap(1, j, y)} which finds the optimal solution for a knapsack of capacity \textit{y} using objects from \textit{1} to \textit{j}. Let the solution to this be defined by $f_{j}(y)$.
+
+At any point in the problem state, the solution depends on making a decision on whether to use the current object or not. So, we obtain the top-down recurrence relation
+
+\begin{equation} \label{eq:knapeq1}
+	f_{j}(y) = max \quad \{f_{j-1}(y), f_{j-1}(y-w_{j}) + p_{j}\}, {y \ge w_{j}}
+\end{equation}
+
+Let us consider an example with a knapsack of capacity $C = 6$, three given objects with weights 2,3,4 and profits 1,2,5 respectively. Using the relation \ref{eq:knapeq1} we calculate all possible values and store them in a table as follows
+\begin{center}
+	\begin{tabular}{*8c}
+		& 0 &1 &2 &3 &4 &5 &6 \\\cline{2-8}
+		$f_{1}(y)$ &\multicolumn{1}{|c|}{0} &\multicolumn{1}{|c|}{0} &\multicolumn{1}{|c|}{1} &\multicolumn{1}{|c|}{1} &\multicolumn{1}{|c|}{1} &\multicolumn{1}{|c|}{1} &\multicolumn{1}{|c|}{1} \\\cline{2-8}
+		$f_{2}(y)$ &\multicolumn{1}{|c|}{0} &\multicolumn{1}{|c|}{0} &\multicolumn{1}{|c|}{1} &\multicolumn{1}{|c|}{2} &\multicolumn{1}{|c|}{2} &\multicolumn{1}{|c|}{3} &\multicolumn{1}{|c|}{3} \\\cline{2-8}
+		$f_{3}(y)$ &\multicolumn{1}{|c|}{0} &\multicolumn{1}{|c|}{0} &\multicolumn{1}{|c|}{1} &\multicolumn{1}{|c|}{2} &\multicolumn{1}{|c|}{5} &\multicolumn{1}{|c|}{5} &\multicolumn{1}{|c|}{6} \\\cline{2-8}
+	\end{tabular}
+\end{center}
+
 \end{document}
