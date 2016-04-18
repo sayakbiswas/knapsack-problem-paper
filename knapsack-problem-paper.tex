@@ -1,5 +1,5 @@
 \documentclass{article}
-\usepackage[margin=8em]{geometry}
+\usepackage[margin=10.5em]{geometry}
 \usepackage{algorithm}
 \usepackage{algorithmicx}
 \usepackage{algpseudocode}
@@ -182,9 +182,10 @@ As we saw above, the brute force approach has a complexity of \textit{O(n$2^{n}$
 
 The dynamic programming approach performs much better with a running time of \textit{O(nC)}. It also has a space complexity of \textit{O(C)}. This stems from the fact that in a dynamic programming approach we need to store two rows of a \textit{C}-column array as values in the current row are calculated using those from the previous row. From the perspective of coding complexity, it is also quite easy to implement.
 
-The backtracking algorithm will create the complete state space tree with $2^{n-1}-1$ nodes in the worst case. In theory it is hard to say how much of the search tree is pruned out by the bounding heuristics however in practice it does not generate all the possible nodes, so there is substantial speed increase. The implementation in code is a bit more difficult in this case compared to the dynamic programming method.
+The backtracking algorithm will create the complete state space tree with $2^{n-1}-1$ nodes in the worst case. In theory it is hard to say how much of the search tree is pruned out by the bounding heuristics however in practice it does not generate all the possible nodes, so there is a substantial speed increase. The implementation in code is a bit more difficult in this case compared to the dynamic programming method.
 
 \section{Conclusion}
+In this paper we looked at two approaches to solve the \textit{0-1} Knapsack problem. We saw that runtimes for both the approaches have different characteristics. As such it cannot be explicitly defined which algorithm is a better choice. This needs to be determined by implementing both algorithms and executing the code by varying the input number of items and the maximum capacity of the knapsack.
 
 \section{References}
 Horowitz, Ellis and Sahni, Sartaj and Rajasekaran, Sanguthevar, 2007, \textit{Computer Algorithms}, Silicon Pr., 773p

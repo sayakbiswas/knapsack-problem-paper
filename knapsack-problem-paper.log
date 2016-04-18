@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.4.12)  18 APR 2016 09:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.4.12)  18 APR 2016 14:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -487,15 +487,15 @@ LaTeX Font Info:    ... okay on input line 12.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(80.00012pt, 454.29475pt, 80.00012pt)
-* v-part:(T,H,B)=(80.00012pt, 634.96974pt, 80.00012pt)
+* h-part:(L,W,R)=(105.00015pt, 404.2947pt, 105.00015pt)
+* v-part:(T,H,B)=(105.00015pt, 584.96968pt, 105.00015pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=454.29475pt
-* \textheight=634.96974pt
-* \oddsidemargin=7.73013pt
-* \evensidemargin=7.73013pt
-* \topmargin=-29.26987pt
+* \textwidth=404.2947pt
+* \textheight=584.96968pt
+* \oddsidemargin=32.73016pt
+* \evensidemargin=32.73016pt
+* \topmargin=-4.26984pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -599,7 +599,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 Here is how much of TeX's memory you used:
  12979 strings out of 493027
  260546 string characters out of 6130428
- 321745 words of memory out of 5000000
+ 321911 words of memory out of 5000000
  16270 multiletter control sequences out of 15000+600000
  10107 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -625,7 +625,7 @@ mes/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><f:/Instal
 led Games/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><f:
 /Installed Games/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.p
 fb>
-Output written on knapsack-problem-paper.pdf (5 pages, 211193 bytes).
+Output written on knapsack-problem-paper.pdf (5 pages, 211786 bytes).
 PDF statistics:
  95 PDF objects out of 1000 (max. 8388607)
  69 compressed objects within 1 object stream
