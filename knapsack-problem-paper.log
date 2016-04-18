@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.4.12)  17 APR 2016 22:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.4.12)  18 APR 2016 09:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -595,39 +595,40 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
 
-[1] [2] [3] (./knapsack-problem-paper.aux) ) 
+[1] [2] [3] [4] (./knapsack-problem-paper.aux) ) 
 Here is how much of TeX's memory you used:
  12979 strings out of 493027
  260546 string characters out of 6130428
- 320828 words of memory out of 5000000
+ 321745 words of memory out of 5000000
  16270 multiletter control sequences out of 15000+600000
  10107 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,9n,71p,758b,849s stack positions out of 5000i,500n,10000p,200000b,80000s
-<f:/Installed Games/TexLive/2015/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><f:/Installed Games/TexLive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><f:/Installed Games/T
-exLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><f:/Installed G
-ames/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><f:/Ins
-talled Games/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb>
-<f:/Installed Games/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
-10.pfb><f:/Installed Games/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmmi7.pfb><f:/Installed Games/TexLive/2015/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr10.pfb><f:/Installed Games/TexLive/2015/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb><f:/Installed Games/TexLive/2015/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr17.pfb><f:/Installed Games/TexLive/2015/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr7.pfb><f:/Installed Games/TexLive/2015/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr8.pfb><f:/Installed Games/TexLive/2015/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><f:/Installed Games/TexLive/2015/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><f:/Installed Games/TexLiv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><f:/Installed Games/
-TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><f:/Installed 
-Games/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><f:/Ins
-talled Games/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on knapsack-problem-paper.pdf (4 pages, 205742 bytes).
+<f:/Installed Games/TexLive/201
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><f:/Installed Games/TexL
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><f:/Installed Gam
+es/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><f:/Install
+ed Games/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><f:
+/Installed Games/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.
+pfb><f:/Installed Games/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi10.pfb><f:/Installed Games/TexLive/2015/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi7.pfb><f:/Installed Games/TexLive/2015/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb><f:/Installed Games/TexLive/2015/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr12.pfb><f:/Installed Games/TexLive/2015/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr17.pfb><f:/Installed Games/TexLive/2015/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr7.pfb><f:/Installed Games/TexLive/2015/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><f:/Installed Games/TexLive/2015/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><f:/Installed Games/TexLive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><f:/Installed Games/Te
+xLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><f:/Installed Ga
+mes/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><f:/Instal
+led Games/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><f:
+/Installed Games/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.p
+fb>
+Output written on knapsack-problem-paper.pdf (5 pages, 211193 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
+ 95 PDF objects out of 1000 (max. 8388607)
+ 69 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
