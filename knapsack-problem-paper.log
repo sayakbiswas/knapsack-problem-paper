@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.4.12)  18 APR 2016 14:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/W32TeX) (preloaded format=pdflatex 2016.4.12)  18 APR 2016 20:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -463,21 +463,134 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 \@result=\toks31
 \child@list=\toks32
 \root@node=\toks33
-)) (./knapsack-problem-paper.aux)
+)) (f:/Installed Games/TexLive/2015/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(f:/Installed Games/TexLive/2015/texmf-dist/tex/generic/oberdiek/hobsub-hyperre
+f.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(f:/Installed Games/TexLive/2015/texmf-dist/tex/generic/oberdiek/hobsub-generic
+.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(f:/Installed Games/TexLive/2015/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(f:/Installed Games/TexLive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen180
+\Hy@linkcounter=\count122
+\Hy@pagecounter=\count123
+
+(f:/Installed Games/TexLive/2015/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count124
+
+(f:/Installed Games/TexLive/2015/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count125
+(f:/Installed Games/TexLive/2015/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen181
+\Fld@menulength=\count126
+\Field@Width=\dimen182
+\Fld@charsize=\dimen183
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count127
+\c@Item=\count128
+\c@Hfootnote=\count129
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(f:/Installed Games/TexLive/2015/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count130
+\c@bookmark@seq@number=\count131
+
+(f:/Installed Games/TexLive/2015/texmf-dist/tex/latex/oberdiek/rerunfilecheck.s
+ty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip46
+) (./knapsack-problem-paper.aux)
 \openout1 = `knapsack-problem-paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -487,15 +600,15 @@ LaTeX Font Info:    ... okay on input line 12.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(105.00015pt, 404.2947pt, 105.00015pt)
-* v-part:(T,H,B)=(105.00015pt, 584.96968pt, 105.00015pt)
+* h-part:(L,W,R)=(80.00012pt, 454.29475pt, 80.00012pt)
+* v-part:(T,H,B)=(80.00012pt, 634.96974pt, 80.00012pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=404.2947pt
-* \textheight=584.96968pt
-* \oddsidemargin=32.73016pt
-* \evensidemargin=32.73016pt
-* \topmargin=-4.26984pt
+* \textwidth=454.29475pt
+* \textheight=634.96974pt
+* \oddsidemargin=7.73013pt
+* \evensidemargin=7.73013pt
+* \topmargin=-29.26987pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -516,53 +629,24 @@ LaTeX Font Info:    ... okay on input line 12.
 ABD: EveryShipout initializing macros
 (f:/Installed Games/TexLive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count122
-\scratchdimen=\dimen180
+\scratchcounter=\count132
+\scratchdimen=\dimen184
 \scratchbox=\box40
-\nofMPsegments=\count123
-\nofMParguments=\count124
+\nofMPsegments=\count133
+\nofMParguments=\count134
 \everyMPshowfont=\toks34
-\MPscratchCnt=\count125
-\MPscratchDim=\dimen181
-\MPnumerator=\count126
-\makeMPintoPDFobject=\count127
+\MPscratchCnt=\count135
+\MPscratchDim=\dimen185
+\MPnumerator=\count136
+\makeMPintoPDFobject=\count137
 \everyMPtoPDFconversion=\toks35
-)
-(f:/Installed Games/TexLive/2015/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
-(f:/Installed Games/TexLive/2015/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
 )
 (f:/Installed Games/TexLive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.st
 y
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
  (f:/Installed Games/TexLive/2015/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(f:/Installed Games/TexLive/2015/texmf-dist/tex/generic/oberdiek/kvdefinekeys.s
-ty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(f:/Installed Games/TexLive/2015/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(f:/Installed Games/TexLive/2015/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(f:/Installed Games/TexLive/2015/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
+)
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
@@ -573,62 +657,95 @@ cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+\AtBeginShipoutBox=\box41
+Package hyperref Info: Link coloring OFF on input line 13.
+
+(f:/Installed Games/TexLive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(f:/Installed Games/TexLive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring
+.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count138
+)
+LaTeX Info: Redefining \ref on input line 13.
+LaTeX Info: Redefining \pageref on input line 13.
+LaTeX Info: Redefining \nameref on input line 13.
+ (./knapsack-problem-paper.out) (./knapsack-problem-paper.out)
+\@outlinefile=\write4
+\openout4 = `knapsack-problem-paper.out'.
+
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 14.
+(Font)              <12> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 14.
+(Font)              <8> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 14.
+(Font)              <6> on input line 16.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 16.
+(Font)              <9> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 16.
+(Font)              <5> on input line 17.
  [1
 
 {f:/Installed Games/TexLive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 27.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 37.
- (f:/Installed Games/TexLive/2015/texmf-dist/tex/latex/base/omscmr.fd
+(Font)              <7> on input line 28.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 38.
+
+(f:/Installed Games/TexLive/2015/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
+ [1]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 68.
 
-[1] [2] [3] [4] (./knapsack-problem-paper.aux) ) 
+[2] [3] [4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 194.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 194.
+ (./knapsack-problem-paper.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 194.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 194.
+Package rerunfilecheck Info: File `knapsack-problem-paper.out' has not changed.
+
+(rerunfilecheck)             Checksum: EFF43DD7E8739E139CA2EB9EAABFB2DA;368.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 194.
+ ) 
 Here is how much of TeX's memory you used:
- 12979 strings out of 493027
- 260546 string characters out of 6130428
- 321911 words of memory out of 5000000
- 16270 multiletter control sequences out of 15000+600000
- 10107 words of font info for 35 fonts, out of 8000000 for 9000
+ 16495 strings out of 493027
+ 314187 string characters out of 6130428
+ 396371 words of memory out of 5000000
+ 19744 multiletter control sequences out of 15000+600000
+ 10275 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,9n,71p,758b,849s stack positions out of 5000i,500n,10000p,200000b,80000s
-<f:/Installed Games/TexLive/201
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><f:/Installed Games/TexL
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><f:/Installed Gam
-es/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><f:/Install
-ed Games/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><f:
-/Installed Games/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.
+ 55i,9n,71p,758b,851s stack positions out of 5000i,500n,10000p,200000b,80000s
+<f:/Installed Games/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+bx10.pfb><f:/Installed Games/TexLive/2015/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmbx12.pfb><f:/Installed Games/TexLive/2015/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmbx9.pfb><f:/Installed Games/TexLive/2015/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmcsc10.pfb><f:/Installed Games/TexLive/2015/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmex10.pfb><f:/Installed Games/TexLive/2015/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi10.pfb><f:/Installed Games/TexLive/2015/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><f:/Installed Games/TexLive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><f:/Installed Games/Tex
+Live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><f:/Installed Gam
+es/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><f:/Install
+ed Games/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><f:/In
+stalled Games/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+f:/Installed Games/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.
 pfb><f:/Installed Games/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi10.pfb><f:/Installed Games/TexLive/2015/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi7.pfb><f:/Installed Games/TexLive/2015/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr10.pfb><f:/Installed Games/TexLive/2015/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr12.pfb><f:/Installed Games/TexLive/2015/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr17.pfb><f:/Installed Games/TexLive/2015/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr7.pfb><f:/Installed Games/TexLive/2015/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><f:/Installed Games/TexLive/2015/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><f:/Installed Games/TexLive/2
-015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><f:/Installed Games/Te
-xLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><f:/Installed Ga
-mes/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><f:/Instal
-led Games/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><f:
-/Installed Games/TexLive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.p
-fb>
-Output written on knapsack-problem-paper.pdf (5 pages, 211786 bytes).
+cmsy10.pfb><f:/Installed Games/TexLive/2015/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy7.pfb><f:/Installed Games/TexLive/2015/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy9.pfb><f:/Installed Games/TexLive/2015/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmti10.pfb><f:/Installed Games/TexLive/2015/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmti9.pfb><f:/Installed Games/TexLive/2015/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on knapsack-problem-paper.pdf (5 pages, 227712 bytes).
 PDF statistics:
- 95 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 147 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
+ 17 named destinations out of 1000 (max. 500000)
+ 69 words of extra memory for PDF output out of 10000 (max. 10000000)
 
